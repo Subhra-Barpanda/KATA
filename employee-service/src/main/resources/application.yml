@@ -1,0 +1,14 @@
+spring:
+  jersey:
+    application-path: /employee-service/api
+
+server:
+  port: 9090
+  servlet:
+    path: /
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
